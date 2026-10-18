@@ -1,0 +1,32 @@
+:root {
+  --bg: #f7f8f6; --card: #ffffff; --text: #17201b; --dim: #56635b; --line: #dfe5e0;
+  --brand: #0d3b26; --gold: #b8860b; --link: #0b6b3f;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #08140e; --card: #0f2219; --text: #eef3ef; --dim: #a7b6ad; --line: #1f3a2c;
+          --brand: #f2c45a; --gold: #f2c45a; --link: #7fd6a4; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text);
+       font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+header.top { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+header.top img { width: 56px; height: 56px; border-radius: 13px; }
+header.top .name { font: 800 22px/1.2 ui-rounded, -apple-system, sans-serif; color: var(--brand); }
+header.top .sub { font-size: 14px; color: var(--dim); }
+nav.lang { font-size: 14px; margin: 4px 0 24px; color: var(--dim); }
+nav.lang a { margin-right: 12px; }
+h1 { font: 800 30px/1.2 ui-rounded, -apple-system, sans-serif; margin: 8px 0 4px; }
+h2 { font-size: 20px; margin: 34px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+h3 { font-size: 17px; margin: 20px 0 4px; }
+p, li { color: var(--text); }
+.meta { color: var(--dim); font-size: 14px; }
+a { color: var(--link); text-underline-offset: 2px; }
+.summary { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; margin: 20px 0; }
+.summary ul { margin: 8px 0 0; padding-left: 20px; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; margin: 10px 0; display: block; overflow-x: auto; }
+th, td { text-align: left; vertical-align: top; padding: 9px 10px; border-bottom: 1px solid var(--line); min-width: 120px; }
+th { color: var(--dim); font-weight: 600; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; margin: 14px 0; }
+footer { margin-top: 48px; font-size: 13px; color: var(--dim); }
