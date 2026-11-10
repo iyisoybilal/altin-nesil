@@ -17,13 +17,13 @@
 <nav class="lang"><a href="../gizlilik/" hreflang="tr">Türkçe</a> · <strong>English</strong> · <a href="../en/">Support</a></nav>
 
 <h1>Privacy Policy</h1>
-<p class="meta">Effective date: November 2, 2026 (version 1.1) · In case of conflict, the <a href="../gizlilik/">Turkish version</a> prevails.</p>
+<p class="meta">Effective date: November 10, 2026 (version 1.2) · In case of conflict, the <a href="../gizlilik/">Turkish version</a> prevails.</p>
 
 <div class="summary">
   <strong>In short</strong>
   <ul>
     <li>No sign-up. We do <strong>not</strong> ask for your name, phone number, location or photos. Your email is collected only if you choose to leave it in the feedback form.</li>
-    <li>Your career is stored <strong>on your device</strong>. For online features (friendlies, World Top 100, Weekly Event) the Game creates an <strong>anonymous online account</strong> and keeps a copy of your club (name, crest, strength, line-up) and your online results on our server in the <strong>EU (Frankfurt)</strong>.</li>
+    <li>Your career is stored <strong>on your device</strong> (and, if iCloud is on, in your own iCloud account). For online features (friendlies, World Top 100, Weekly Event) the Game creates an <strong>anonymous online account</strong> and keeps a copy of your club (name, crest, strength, line-up) and your online results on our server in the <strong>EU (Frankfurt)</strong>.</li>
     <li>No ads, <strong>no tracking</strong> across apps, and we <strong>never sell</strong> your data.</li>
     <li>You can delete your online account and all its server data at any time: <em>Profile → Delete my online data</em>.</li>
   </ul>
@@ -43,18 +43,21 @@
   <li><strong>Reminders:</strong> local reminders are scheduled on your device.</li>
   <li><strong>Crash diagnostics:</strong> Apple's MetricKit creates crash and hang summaries on your device; the Game does not send them to us.</li>
 </ul>
-<p>Deleting the app removes this data. You can also erase your progress via <em>Profile → Reset Progress</em>.</p>
+<p><strong>iCloud backup:</strong> if iCloud is on for your iPhone, your game progress is also backed up to <strong>your private area</strong> of Apple's iCloud (Apple CloudKit private database) so it can come back if you reinstall the Game or move to a new iPhone. Only your Apple Account can access it; we cannot see or read it. You can delete the backup in iPhone <em>Settings → [your name] → iCloud → Manage Storage</em>.</p>
+<p>Deleting the app removes the data on your device. You can also erase your progress via <em>Profile → Reset Progress</em>.</p>
 
 <h3>2.2 Online account and online features</h3>
 <p>When the Game connects to our server (it does so automatically when it opens), it creates an <strong>anonymous account</strong>: a random account ID, with no email or password. Linked to this account we store:</p>
 <ul>
-  <li><strong>Club profile:</strong> club name, crest, team strength, division, your match line-up (player names, positions, ratings), a friend code, and whether you accepted the fair-play rules or chose to hide yourself from rankings.</li>
+  <li><strong>Club profile:</strong> club name, crest, team strength, division, number of matches played, your match line-up (player names, positions, ratings), a friend code, and whether you accepted the fair-play rules or chose to hide yourself from rankings.</li>
   <li><strong>Friends and friendlies:</strong> your friend list, friendly-match invitations, match choices (e.g. penalty corners) and results.</li>
+  <li><strong>Friend invites:</strong> if you enter a friend's invite code, who invited you, the invite status (pending, first season completed, rewarded) and its dates. Only the inviting player receives the reward.</li>
   <li><strong>Weekly Event:</strong> your attempts, shots and scores, your weekly and all-time best, and rewards you claimed.</li>
   <li><strong>Event attempt purchases:</strong> the App Store transaction ID of each “Event Attempt” you buy, so the attempt can be credited to your account (see 2.4).</li>
   <li><strong>Safety records:</strong> players you block, reports you send or receive, and any suspension for breaking the rules; plus counters that limit how often an action can be repeated (to prevent abuse).</li>
-  <li><strong>Notification token:</strong> only if you allow notifications — your device's push token, platform and language, used to tell you when a friend invites you or waits for you in a match room.</li>
+  <li><strong>Notification token:</strong> only if you allow notifications and the in-game Notifications setting is on — your device's push token, platform and language. Used to tell you when a friend invites you or waits for you in a match room, and for <strong>service announcements</strong> about the Game (e.g. a new version that fixes a bug, maintenance). We never send ads or sales offers by notification. Turning off <em>Profile → Settings → Notifications</em> deletes the token from our server.</li>
 </ul>
+<p><strong>Server announcements:</strong> when it opens, the Game reads the current announcements from our server (e.g. maintenance, a section temporarily closed, a call to update). It sends no account-linked data for this; whether an announcement applies to you (app version, platform) is decided on your device.</p>
 <p><strong>What other players see:</strong> your club name, crest, strength, line-up and event scores are shown to your friends and, after you accept the fair-play rules, in public rankings (World Top 100, Weekly Event). You can hide yourself from public rankings. Club names are filtered for offensive words on your device and on the server. There is no chat and no private messaging.</p>
 
 <h3>2.3 Feedback and reports</h3>
@@ -65,7 +68,7 @@
 <p>Feedback and reports are delivered to us by email through our email provider (see section 4).</p>
 
 <h3>2.4 In-app purchases (Apple and RevenueCat)</h3>
-<p>Apple processes payments; we never see your card or payment details. To validate, deliver and restore purchases, our purchase infrastructure provider <strong>RevenueCat, Inc.</strong> (USA) processes a user ID, purchase records (Apple receipt, product, date, transaction details) and technical information (device type, OS version, language/region and currency). The user ID is a random ID that RevenueCat generates; when you buy an <strong>Event Attempt</strong>, the Game links it to your anonymous online account ID so the attempt reaches your account. For Event Attempts our server also asks Apple (App Store Server API) to confirm the transaction before granting it.</p>
+<p>Apple processes payments; we never see your card or payment details. To validate, deliver and restore purchases, our purchase infrastructure provider <strong>RevenueCat, Inc.</strong> (USA) processes a user ID, purchase records (Apple receipt, product, date, transaction details) and technical information (device type, OS version, language/region and currency). The user ID starts as a random ID that RevenueCat generates; once your online account exists, the Game links it to your <strong>anonymous online account ID</strong> so purchases reach your account and can be found for support requests, and sends your <strong>club name</strong> to RevenueCat as a display name (your club name is already public in rankings). For Event Attempts our server also asks Apple (App Store Server API) to confirm the transaction before granting it.</p>
 
 <h3>2.5 What we do not collect</h3>
 <p>Name, phone number, address, location, contacts, photos, microphone, camera, health data, or the advertising identifier (IDFA). The Game has no ads, no ad tracking and does not request App Tracking Transparency permission. We do not use analytics SDKs.</p>
